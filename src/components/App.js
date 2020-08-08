@@ -48,8 +48,6 @@ class App extends Component {
         <Mainbutton
           mouseover={this.handleMouseOver}
           mouseout={this.handleMouseOut}
-          changeposition={this.handleChangePosition}
-          position={this.state.position}
         />
         {this.state.showTooltip ? (
           <Tooltip position={this.state.position} />
